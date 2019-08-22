@@ -13,33 +13,20 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 IDE: Microsoft Visual Studios 1.37.1 (or higher).
 Node.js (Version: 12.9.0 or higher)
 
-## Running the tests
+## Commands
 
-// Insert GIF // video
+*spotify-this-song:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this.gif)
 
-### Break down into end to end tests
+### What are these Commands
 
-Explain what these tests test and why
-
-What I am running here is to see if the application...
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+*spotify
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Simply git push the files into GitHub Profile and link repository to BCS.
 
-## Built With
+## Built With:
 
 Microsoft Studios Visual Code (v1.37.1)
 Google Chrome
@@ -67,7 +54,7 @@ This project is licensed under the University of Washington License
 
 #Progress Log:
 8.20 - 8.21 - Review requirements. Established repository and created files.
-8.22
+8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this"
 8.23
 8.24
 8.25
