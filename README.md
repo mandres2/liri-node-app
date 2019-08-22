@@ -6,11 +6,12 @@ Created a LIRI that acts like the iPhone's SIRI. However, while SIRI is a Speech
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To get started, basically you need to have an updated IDE as well as having the latest version of Node.js
 
 ### Prerequisites
 
 IDE: Microsoft Visual Studios 1.37.1 (or higher).
+Node.js (Version: 12.9.0 or higher)
 
 ## Running the tests
 
@@ -51,7 +52,7 @@ chalk API: https://www.npmjs.com/package/chalk
 
 ## Authors
 
-* **Micah Andres** - *Initial work* - [mandres2](https://github.com/mandres2)
+**Micah Andres** - *Initial work* - [mandres2](https://github.com/mandres2)
 
 ## License
 
@@ -62,5 +63,10 @@ TAs - Catherin Pham, Trae Shanks
 Teacher - Arron Linton
 
 #Progress Log:
-8.20 - 8.21 - Review requirements. Established Repository.
+8.20 - 8.21 - Review requirements. Established repository and created files.
+8.22
+8.23
+8.24
+8.25
+8.26 - Final Revision - Deployed Application
 
