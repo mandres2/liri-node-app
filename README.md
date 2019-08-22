@@ -34,10 +34,15 @@ Node.js v12.9.0
 
 ## npm Packages Used:
 *Axios API v0.19.0 - Used to grab data from the OMDB API and the Bands In Town API: https://www.npmjs.com/package/axios
+<br>
 *Node Spotify API: https://www.npmjs.com/package/node-spotify-api
+<br>
 *OMDb API - For movie-this feature: http://www.omdbapi.com/
+<br>
 *Moment API v2.24.0 - lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.: https://www.npmjs.com/package/moment
+<br>
 *dotenv API v8.1.0 - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.: https://www.npmjs.com/package/dotenv
+<br>
 *chalk API - For colors in terminal: https://www.npmjs.com/package/chalk
 
 ## Authors
@@ -50,13 +55,19 @@ This project is licensed under the University of Washington License
 
 ## Acknowledgments
 *TAs - Catherine Pham, and Trae Shanks*
+<br>
 *Teacher - Arron Linton*
 
 #Progress Log:
 8.20 - 8.21 - Review requirements. Established repository and created files.
+<br>
 8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this"
+<br>
 8.23
+<br>
 8.24
+<br>
 8.25
+<br>
 8.26 - Final Revision - Deployed Application
 
