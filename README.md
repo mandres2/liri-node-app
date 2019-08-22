@@ -39,16 +39,17 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-Microsoft Studios Visual Code 1.37.1
+Microsoft Studios Visual Code (v1.37.1)
 Google Chrome
+Node.js v12.9.0
 
-## Contributing
-Axios API v0.19.0: https://www.npmjs.com/package/axios
-Node Spotify API: https://www.npmjs.com/package/node-spotify-api
-OMDb API: http://www.omdbapi.com/
-moment API: https://www.npmjs.com/package/moment
-dotenv API: https://www.npmjs.com/package/dotenv
-chalk API: https://www.npmjs.com/package/chalk
+## npm Packages Used:
+*Axios API v0.19.0: https://www.npmjs.com/package/axios
+*Node Spotify API: https://www.npmjs.com/package/node-spotify-api
+*OMDb API: http://www.omdbapi.com/
+*moment API: https://www.npmjs.com/package/moment
+*dotenv API: https://www.npmjs.com/package/dotenv
+*chalk API: https://www.npmjs.com/package/chalk
 
 ## Authors
 
@@ -59,8 +60,8 @@ chalk API: https://www.npmjs.com/package/chalk
 This project is licensed under the University of Washington License
 
 ## Acknowledgments
-TAs - Catherin Pham, Trae Shanks
-Teacher - Arron Linton
+*TAs - Catherine Pham, and Trae Shanks*
+*Teacher - Arron Linton*
 
 #Progress Log:
 8.20 - 8.21 - Review requirements. Established repository and created files.
