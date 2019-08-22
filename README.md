@@ -46,11 +46,12 @@ Node.js v12.9.0
 
 ## npm Packages Used:
 *Axios API v0.19.0: https://www.npmjs.com/package/axios
+*Request - For calling Bands in Town & OMDB APIs
 *Node Spotify API: https://www.npmjs.com/package/node-spotify-api
-*OMDb API: http://www.omdbapi.com/
-*moment API: https://www.npmjs.com/package/moment
+*OMDb API - For movie-this feature: http://www.omdbapi.com/
+*Moment API - Used for date formatting: https://www.npmjs.com/package/moment
 *dotenv API: https://www.npmjs.com/package/dotenv
-*chalk API: https://www.npmjs.com/package/chalk
+*chalk API - For colors in terminal: https://www.npmjs.com/package/chalk
 
 ## Authors
 
