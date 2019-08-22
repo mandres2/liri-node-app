@@ -15,26 +15,44 @@ Node.js (Version: 12.9.0 or higher)
 
 ## Commands
 
-*spotify-this-song:
+1. spotify-this-song:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this.gif)
 <br>
 <br>
-*do-what-it-says:
+2. movie-this:
+<br>
+<br>
+3. concert-this:
+<br>
+<br>
+4.do-what-it-says:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/do_what_it_says.gif)
 
-### What are these Commands
-
-*spotify
-
+### What are these Commands?
+<br>
+1.spotify-this-song: Searches the Spotify API Database and will pull out the title of the request track, artist, and album.
+<br>
+1. movie-this:
+<br>
+3. concert-this:
+<br>
+4. do-what-it-says: This reads a file called random.txt. However what is written in random.txt is a command line to request a particular Spotify track, in which will be pulled from the Spotify API database and displayed on the terminal screen.
+<br>
 ## Deployment
 
-Simply git push the files into GitHub Profile and link repository to BCS.
+Simply 'git push' the files into GitHub Profile and link repository to BCS.
 
 ## Built With:
 
+<br>
 Microsoft Studios Visual Code (v1.37.1)
+<br>
 Google Chrome
+<br>
 Node.js v12.9.0
+<br>
+ShareX - GIFs
+<br>
 
 ## npm Packages Used:
 *Axios API v0.19.0 - Used to grab data from the OMDB API and the Bands In Town API: https://www.npmjs.com/package/axios
@@ -65,9 +83,9 @@ This project is licensed under the University of Washington License
 ##Progress Log:
 8.20 - 8.21 - Review requirements. Established repository and created files.
 <br>
-8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this"
+8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this" Ran couple test trials and recorded them with ShareX
 <br>
-8.23
+8.23 - Worked on functionality for OMDb and Bands In Town APIs.
 <br>
 8.24
 <br>
