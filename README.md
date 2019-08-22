@@ -58,7 +58,7 @@ This project is licensed under the University of Washington License
 <br>
 *Teacher - Arron Linton*
 
-#Progress Log:
+##Progress Log:
 8.20 - 8.21 - Review requirements. Established repository and created files.
 <br>
 8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this"
