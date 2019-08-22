@@ -1,6 +1,8 @@
 require("dotenv").config();
+// This will run dotevn npm - Note: .env contains the Spotify Client ID and Secret Key Code
 // This code is required to import the keys.js file and store it in a variable.
 const keys = require("./keys.js");
+
 //___________________________________________________________Spotify npm__________________________________________________________________________//
 
 const Spotify = require('node-spotify-api');
@@ -11,30 +13,119 @@ const spotify = new Spotify(keys.spotify);
 // Here we incorporate the "axios" npm package
 const axios = require("axios");
 
-//____________________________________________________________OMDb___________________________________________________________________________//
+//____________________________________________________________Bands in Town npm__________________________________________________________________//
+const bandsintown = require('bandsintown')("codingbootcamp");
 
-// Grab or assemble the movie name and store it in a variable called "movieName"
-let movieName = process.argv[2];
+//___________________________________________________________Moment.js npm _______________________________________________________________________//
+// Date Formatting
+const moment = require('moment');
+moment().format();
 
-// Then run a request with axios to the OMDB API with the movie specified
+//___________________________________________________________Chalk npm ___________________________________________________________________________//
+const chalk = require('chalk');
+// Reminder: Basically what chalk npm does is that styles the terminal with a small-range of color availability as well as styling the text.
 
-let queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
+// Test-run:
+//console.log(chalk.blue('Hello world!'));  // Output: is good at 2136 08.21.19
 
-// This line is just to help us debug against the actual URL.
-console.log(queryUrl);
+//_____________________________________________________________fs npm ____________________________________________________________________________//
+const fs = require('fs');
 
-// Then create a request with axios to the queryUrl
+//______________________________________________________Variable Declaration______________________________________________________________________//
+let command = process.argv[2];
+let media_array = process.argv.slice(3);
+let media = media_array.join(" ");
 
-// Make a request for a user with a given ID
-// Be careful when using quotes. (i.e. 'queryUrl' will give a undefined output).
-axios.get(queryUrl)
-  .then(function (response) {
-    // handle success
-    console.log(response.data);
-  })
-  .catch(function (error) {
-    // handle error
-    console.log(error);
-  })
+//_____________________________________________________________F(x)_______________________________________________________________________________//
+
+function doThings(command, media) {
+    switch (command) {
+
+        case 'spotify-this-song':
+            spotifyThis(media); break;
+        case 'movie-this':
+            movieThis(media); break;
+        case 'concert-this':
+            concertThis(media); break;
+        case 'do-what-it-says':
+            doWhatItSays(); break;
+        default:
+            console.log("Invalid command. Please type any of the following commands:");
+            console.log(chalk.cyan("concert-this,"), chalk.green("spotify-this-song,"), chalk.yellow("movie-this,"), chalk.red("do-what-it-says"));
+    }
+}
+
+// ============================================================================================================================================== //
+
+// spotify-this-song
+
+function spotifyThis(media) {
+    // Default value
+    if (media == "") {
+        media = "Ji-eun's Sunset"
+    }
+
+// Search spotify API
+    spotify
+        .search({ type: 'track', query: media, limit: 1 })
+        .then(function (response) {
+            var song = response.tracks.items[0];
+            if (song != undefined) {
+                console.log();
+                console.log(chalk.green("//======Song_Name======//"));
+                console.log(song.name);
+
+                console.log(chalk.green("//======Artist(s)======//"));
+                for (i = 0; i < song.artists.length; i++) {
+                    console.log(song.artists[i].name);
+                }
+
+                console.log(chalk.green("//======Preview_Link======//"));
+                console.log(song.preview_url);
+
+                console.log(chalk.green("//======Album======//"));
+                console.log(song.album.name);
+                console.log();
+            } else {
+                console.log("Unable to locate song.")
+            }
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+};
+
+// ============================================================================================================================================== //
+
+// movie-this
+
+function movieThis(media) {
+
+};
+
+// ============================================================================================================================================== //
+
+// concert-this
+
+function concertThis(){
+
+};
+
+// ============================================================================================================================================== //
+
+// do-what-it-says
+
+function doWhatItSays() {
+    fs.readFile("random.txt", "utf8", function (err, response) {
+        if (err) {
+            console.log(err);
+        }
+        let params = (response.split(','));
+        doThings(params[0], params[1]);
+    })
+}
+
+// ============================================================================================================================================== //
 
 
+doThings(command, media);
