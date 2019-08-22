@@ -16,6 +16,7 @@ Node.js (Version: 12.9.0 or higher)
 ## Running the tests
 
 // Insert GIF // video
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this.gif)
 
 ### Break down into end to end tests
 
