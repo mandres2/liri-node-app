@@ -15,6 +15,7 @@ const axios = require("axios");
 
 //____________________________________________________________Bands in Town npm__________________________________________________________________//
 const bandsintown = require('bandsintown')("codingbootcamp");
+// There seems to be an issue with pulling this....
 
 //___________________________________________________________Moment.js npm _______________________________________________________________________//
 // Date Formatting
@@ -36,6 +37,8 @@ let command = process.argv[2];
 let media_array = process.argv.slice(3);
 let media = media_array.join(" ");
 
+// These variables are associated with the user command functionality.
+
 //_____________________________________________________________F(x)_______________________________________________________________________________//
 
 function doThings(command, media) {
@@ -52,8 +55,8 @@ function doThings(command, media) {
         default:
             console.log("Invalid command. Please type any of the following commands:");
             console.log(chalk.cyan("concert-this,"), chalk.green("spotify-this-song,"), chalk.yellow("movie-this,"), chalk.red("do-what-it-says"));
-    }
-}
+    };
+};
 
 // ============================================================================================================================================== //
 
@@ -61,11 +64,11 @@ function doThings(command, media) {
 
 function spotifyThis(media) {
     // Default value
-    if (media == "") {
+    if (media === "") {
         media = "Ji-eun's Sunset"
     }
 
-// Search spotify API
+// Search Spotify API
     spotify
         .search({ type: 'track', query: media, limit: 1 })
         .then(function (response) {
