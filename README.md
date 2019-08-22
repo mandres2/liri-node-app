@@ -17,6 +17,10 @@ Node.js (Version: 12.9.0 or higher)
 
 *spotify-this-song:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this.gif)
+<br>
+<br>
+*do-what-it-says:
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/do_what_it_says.gif)
 
 ### What are these Commands
 
