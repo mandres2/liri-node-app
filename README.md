@@ -6,7 +6,7 @@ Created a LIRI that acts like the iPhone's SIRI. However, while SIRI is a Speech
 
 ## Getting Started
 
-To get started, basically you need to have an updated IDE as well as having the latest version of Node.js
+To get started: You will need to have an updated IDE (preferably VS Code), as well as having the latest version of Node.js
 
 ### Prerequisites
 
@@ -15,12 +15,13 @@ Node.js (Version: 12.9.0 or higher)
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+// Insert GIF // video
 
 ### Break down into end to end tests
 
 Explain what these tests test and why
 
+What I am running here is to see if the application...
 ```
 Give an example
 ```
