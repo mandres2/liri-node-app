@@ -1,5 +1,7 @@
 # liri-node-app
+<br>
 
+<br>
 # LIRI Bot
 
 Created a LIRI that acts like the iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
@@ -56,7 +58,7 @@ Google Chrome
 <br>
 Node.js v12.9.0
 <br>
-ShareX - Screen Record User Functionality and converts to GIFs
+ShareX v12.4.1 - Screen Record User Functionality and converts to GIFs
 <br>
 
 ## npm Packages Used:
@@ -90,13 +92,13 @@ This project is licensed under the University of Washington License
 ##Progress Log:
 8.20 - 8.21 - Review requirements. Established repository and created files.
 <br>
-8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this" Ran couple test trials and recorded them with ShareX
+8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this" Ran couple test trials and recorded them with ShareX.
 <br>
 8.23 - Worked on functionality for OMDb and Bands In Town APIs.
 <br>
-8.24
+8.24 - Debugging for all 4 methods, spotify-this, movie-this, concert-this, do-what-it-says.
 <br>
-8.25
+8.25 - Polishing up application and adjusting chalk npm colors.
 <br>
 8.26 - Final Revision - Deployed Application
 
