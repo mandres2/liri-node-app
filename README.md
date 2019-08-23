@@ -11,12 +11,12 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 ### Prerequisites
 
-*IDE: Microsoft Visual Studios 1.37.1 (or higher).
-*Node.js (Version: 12.9.0 or higher)
+:black_small_square: IDE: Microsoft Visual Studios 1.37.1 (or higher).
+:black_small_square: Node.js (Version: 12.9.0 or higher)
 
 ## Commands
 
-**List of commands**
+**List of commands:**
 
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/list_commands.gif)
 
