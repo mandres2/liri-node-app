@@ -1,9 +1,12 @@
-# liri-node-app
+# LIRI Application
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/nodejs.gif)
 
 # LIRI Bot
 
 Created a LIRI that acts like the iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+
+## Motive:
+The primary motive was to gain a foundational concept of utilizing Node.js and how it works in terms of pulling requested data from API databases. I believe through building this application I gained an understanding how installing JSON packages and npms coordinated with retrieving targeted data from APIs. Also, I learned how imperative it is to read thoroughly through npm documentation to make sure I am using the proper syntax in my code in order to execute the desired function. Overall, this experience was challenging yet rewarding in its ways.
 
 ## Getting Started
 
@@ -45,7 +48,7 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 ## Deployment
 
-Simply 'git push' the files into GitHub Profile and link repository to BCS.
+<b>Simply 'git push' the files into GitHub Profile and link repository to BCS.</b>
 
 ## Built With:
 
