@@ -20,7 +20,6 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/list_commands.gif)
 
-
 1. spotify-this-song:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this_song.gif)
 
@@ -35,13 +34,13 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 ### What are these Commands?
 <br>
-1.spotify-this-song: Searches the Spotify API Database and will pull out the title of the request track, artist, and album. Default is: 'The Sign,' by Ace of Base.
+<b>1.spotify-this-song:</b> Searches the Spotify API Database and will pull out the title of the request track, artist, and album. Default is: 'The Sign,' by Ace of Base.
 <br>
-1. movie-this: Utilizing the 'request' npm the application will search the OMDb Database and retrieve the target movie, the user selected. If no movie is selected, the application automatically defaults to pulling out the movie: 'Mr. Nobody.'
+2. <b>movie-this:</b> Utilizing the 'request' npm the application will search the OMDb Database and retrieve the target movie, the user selected. If no movie is selected, the application automatically defaults to pulling out the movie: 'Mr. Nobody.'
 <br>
-3. concert-this: Utilizing the 'request' npm the application will search the BandsinTown Database and retrieve the target movie, the user selected. If no particular artist is selected, the applciation automatically defaults to retrieving data from the artist: Rich Brian.
+3. <b>concert-this:</b> Utilizing the 'request' npm the application will search the BandsinTown Database and retrieve the target movie, the user selected. If no particular artist is selected, the applciation automatically defaults to retrieving data from the artist: Rich Brian.
 <br>
-4. do-what-it-says: This reads a file called random.txt. However what is written in random.txt is a command line to request a particular Spotify track, in which will be pulled from the Spotify API database and displayed on the terminal screen.
+4. <b>do-what-it-says:</b> This reads a file called random.txt. However what is written in random.txt is a command line to request a particular Spotify track, in which will be pulled from the Spotify API database and displayed on the terminal screen.
 
 ## Deployment
 
