@@ -149,8 +149,34 @@ function movieThis(media) {
 
 // concert-this
 
-function concertThis(){
-
+function concertThis(media) {
+    // Default value
+    if (media == "") {
+        media = "Rich Brian"
+    }
+    request("https://rest.bandsintown.com/artists/" + media + "/events?app_id=codingbootcamp", function (error, response, data) {
+        try {
+            var response = JSON.parse(data)
+            if (response.length != 0) {
+                console.log(chalk.green(`Upcoming concerts for ${media} include: `))
+                response.forEach(function (element) {
+                    console.log(chalk.cyan("Venue name: " + element.venue.name));
+                    if (element.venue.country == "United States") {
+                        console.log("City: " + element.venue.city + ", " + element.venue.region);
+                    } else {
+                        console.log("City: " + element.venue.city + ", " + element.venue.country);
+                    }
+                    console.log("Date: " + moment(element.datetime).format('MM/DD/YYYY'));
+                    console.log();
+                })
+            } else {
+                console.log(chalk.red("No concerts found."));
+            }
+        }
+        catch (error) {
+            console.log(chalk.red("No concerts found."));
+        }
+    });
 };
 
 // ============================================================================================================================================== //
