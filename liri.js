@@ -65,7 +65,7 @@ function doThings(command, media) {
 function spotifyThis(media) {
     // Default value
     if (media === "") {
-        media = "Ji-eun's Sunset"
+        media = "The Sign Ace of Base"
     }
 
 // Search Spotify API
@@ -103,9 +103,44 @@ function spotifyThis(media) {
 // movie-this
 
 function movieThis(media) {
-
-};
-
+    // Default value
+    if (media == "") {
+        media = "Mr. Nobody"
+    }
+    request("http://www.omdbapi.com/?apikey=trilogy&t=" + media, function (error, response, data) {
+        try {
+            var response = JSON.parse(data)
+            if (response.Title != undefined) {
+                console.log(chalk.green("*************Movie Name**************"));
+                console.log(response.Title);
+                console.log(chalk.green("*****************Year****************"));
+                console.log(response.Year);
+                console.log(chalk.green("***" + response.Ratings[0].Source + " Rating****"));
+                console.log(response.Ratings[0].Value);
+                // This is in case there's only ratings from one source
+                // at time of publication, ex: "Bad Times at the El Royale"
+                try {
+                    console.log(chalk.green("********" + response.Ratings[1].Source + " Rating*******"));
+                    console.log(response.Ratings[1].Value);
+                } catch { }
+                console.log(chalk.green("****************Country**************"));
+                console.log(response.Country);
+                console.log(chalk.green("***************Language**************"));
+                console.log(response.Language);
+                console.log(chalk.green("*****************Plot****************"));
+                console.log(response.Plot);
+                console.log(chalk.green("****************Actors***************"));
+                console.log(response.Actors);
+                console.log();
+            } else {
+                console.log(chalk.red("This movie not found."));
+            }
+        }
+        catch (error) {
+            console.log(chalk.red("This movie not found."));
+        }
+    });
+}
 // ============================================================================================================================================== //
 
 // concert-this
