@@ -34,7 +34,7 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 ### What are these Commands?
 <br>
-<b>1.spotify-this-song:</b> Searches the Spotify API Database and will pull out the title of the request track, artist, and album. Default is: 'The Sign,' by Ace of Base.
+1. <b>spotify-this-song:</b> Searches the Spotify API Database and will pull out the title of the request track, artist, and album. Default is: 'The Sign,' by Ace of Base.
 <br>
 2. <b>movie-this:</b> Utilizing the 'request' npm the application will search the OMDb Database and retrieve the target movie, the user selected. If no movie is selected, the application automatically defaults to pulling out the movie: 'Mr. Nobody.'
 <br>
@@ -73,9 +73,9 @@ ShareX v12.4.1 - Screen Record User Functionality and converts to GIFs
 <br>
 *chalk API - For colors in terminal: https://www.npmjs.com/package/chalk
 
-## Authors
+## Author
 
-**Micah Andres** - *Initial work* - [mandres2](https://github.com/mandres2)
+**Micah Andres** - [mandres2](https://github.com/mandres2)
 
 ## License
 
