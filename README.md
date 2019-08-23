@@ -79,23 +79,24 @@ ShareX v12.4.1 - Screen Record User Functionality and converts to GIFs
 
 ## License
 
-This project is licensed under the University of Washington License
+<b>This project is licensed under the University of Washington License</b>
 
 ## Acknowledgments
 *TAs - Catherine Pham, and Trae Shanks*
 <br>
 *Teacher - Arron Linton*
 
-##Progress Log:
-8.20 - 8.21 - Review requirements. Established repository and created files.
+## Progress Log:
 <br>
-8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this" Ran couple test trials and recorded them with ShareX.
+:heavy_check_mark: 8.20 - 8.21 - Review requirements. Established repository and created files.
 <br>
-8.23 - Worked on functionality for OMDb and Bands In Town APIs.
+:heavy_check_mark: 8.22 - Began coding functionality and targeting selected APIs once all npms have been installed. Ran trial runs for spotify api and "do-this" Ran couple test trials and recorded them with ShareX.
 <br>
-8.24 - Debugging for all 4 methods, spotify-this, movie-this, concert-this, do-what-it-says.
+:heavy_check_mark: 8.23 - Worked on functionality for OMDb and Bands In Town APIs.
 <br>
-8.25 - Polishing up application and adjusting chalk npm colors.
+:heavy_check_mark: 8.24 - Debugging for all 4 methods, spotify-this, movie-this, concert-this, do-what-it-says.
 <br>
-8.26 - Final Revision - Deployed Application
+:heavy_check_mark: 8.25 - Polishing up application and adjusting chalk npm colors.
+<br>
+:heavy_check_mark: 8.26 - Final Revision - Deployed Application
 
