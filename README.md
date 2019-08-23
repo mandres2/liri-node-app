@@ -12,6 +12,7 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 ### Prerequisites
 
 :black_small_square: IDE: Microsoft Visual Studios 1.37.1 (or higher).
+<br>
 :black_small_square: Node.js (Version: 12.9.0 or higher)
 
 ## Commands
