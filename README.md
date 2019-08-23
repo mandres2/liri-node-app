@@ -19,7 +19,7 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 <br>
 **List of commands**
 <br>
-![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/list_commands.gif)
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/list_commands.gif?raw=true)
 <br>
 
 1. spotify-this-song:
