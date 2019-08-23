@@ -49,29 +49,29 @@ Simply 'git push' the files into GitHub Profile and link repository to BCS.
 ## Built With:
 
 <br>
-Microsoft Studios Visual Code (v1.37.1)
+:black_small_square: Microsoft Studios Visual Code (v1.37.1)
 <br>
-Google Chrome
+:black_small_square: Google Chrome
 <br>
-Node.js v12.9.0
+:black_small_square: Node.js v12.9.0
 <br>
-ShareX v12.4.1 - Screen Record User Functionality and converts to GIFs
+:black_small_square: ShareX v12.4.1 - Screen Record User Functionality and converts to GIFs
 <br>
 
 ## npm Packages Used:
-*Axios API v0.19.0 - Used to grab data from the OMDB API and the Bands In Town API: https://www.npmjs.com/package/axios
+:black_small_square: Axios API v0.19.0 - Used to grab data from the OMDB API and the Bands In Town API: https://www.npmjs.com/package/axios
 <br>
-*Node Spotify API: https://www.npmjs.com/package/node-spotify-api
+:black_small_square: Node Spotify API: https://www.npmjs.com/package/node-spotify-api
 <br>
-*OMDb API - For movie-this feature: http://www.omdbapi.com/
+:black_small_square: OMDb API - For movie-this feature: http://www.omdbapi.com/
 <br>
-*Moment API v2.24.0 - lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.: https://www.npmjs.com/package/moment
+:black_small_square: Moment API v2.24.0 - lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.: https://www.npmjs.com/package/moment
 <br>
-*Request npm - Request npm calls out the data from OMDb and BandsinTown database.
+:black_small_square: Request npm - Request npm calls out the data from OMDb and BandsinTown database.
 <br>
-*dotenv API v8.1.0 - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.: https://www.npmjs.com/package/dotenv
+:black_small_square: dotenv API v8.1.0 - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.: https://www.npmjs.com/package/dotenv
 <br>
-*chalk API - For colors in terminal: https://www.npmjs.com/package/chalk
+:black_small_square: chalk API - For colors in terminal: https://www.npmjs.com/package/chalk
 
 ## Author
 
