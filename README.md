@@ -1,6 +1,6 @@
 # liri-node-app
 <br>
-
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/nodejs.gif)
 <br>
 # LIRI Bot
 
@@ -17,10 +17,10 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 ## Commands
 <br>
-List of commands:
+**List of commands**
 <br>
-![alt text]()
-
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/list_commands.gif)
+<br>
 
 1. spotify-this-song:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this_song.gif)
@@ -28,6 +28,7 @@ List of commands:
 <br>
 2. movie-this:
 <br>
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/movie_this.gif)
 <br>
 3. concert-this:
 <br>
@@ -37,9 +38,9 @@ List of commands:
 
 ### What are these Commands?
 <br>
-1.spotify-this-song: Searches the Spotify API Database and will pull out the title of the request track, artist, and album.
+1.spotify-this-song: Searches the Spotify API Database and will pull out the title of the request track, artist, and album. Default is: 'The Sign,' by Ace of Base.
 <br>
-1. movie-this: Utilizing the
+1. movie-this: Utilizing the 'request' npm the application will search the OMDb Database and retrieve the target movie, the user selected. If no movie is selected, the application automatically defaults to pulling out the movie: 'Mr. Nobody.'
 <br>
 3. concert-this:
 <br>
