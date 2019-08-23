@@ -71,7 +71,7 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 <br>
 :black_small_square: Moment API v2.24.0 - lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.: https://www.npmjs.com/package/moment
 <br>
-:black_small_square: Request npm - Request npm calls out the data from OMDb and BandsinTown database.
+:black_small_square: Request v2.88.0 https://www.npmjs.com/package/request - Request npm calls out the data from OMDb and BandsinTown database.
 <br>
 :black_small_square: dotenv API v8.1.0 - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.: https://www.npmjs.com/package/dotenv
 <br>
