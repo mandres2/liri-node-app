@@ -23,7 +23,7 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 1. spotify-this-song:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this_song.gif)
-<br>
+
 2. movie-this:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/movie_this.gif)
 <br>
