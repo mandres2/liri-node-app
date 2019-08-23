@@ -31,7 +31,6 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 <br>
 3. concert-this:
 <br>
-<br>
 4.do-what-it-says:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/do_what_it_says.gif)
 
