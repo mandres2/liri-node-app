@@ -28,6 +28,7 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/movie_this.gif)
 
 3. concert-this:
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/concert_this.gif)
 
 4.do-what-it-says:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/do_what_it_says.gif)
