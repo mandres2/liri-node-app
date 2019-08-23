@@ -39,10 +39,10 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 <br>
 1. movie-this: Utilizing the 'request' npm the application will search the OMDb Database and retrieve the target movie, the user selected. If no movie is selected, the application automatically defaults to pulling out the movie: 'Mr. Nobody.'
 <br>
-3. concert-this:
+3. concert-this: Utilizing the 'request' npm the application will search the BandsinTown Database and retrieve the target movie, the user selected. If no particular artist is selected, the applciation automatically defaults to retrieving data from the artist: Rich Brian.
 <br>
 4. do-what-it-says: This reads a file called random.txt. However what is written in random.txt is a command line to request a particular Spotify track, in which will be pulled from the Spotify API database and displayed on the terminal screen.
-<br>
+
 ## Deployment
 
 Simply 'git push' the files into GitHub Profile and link repository to BCS.
