@@ -10,13 +10,18 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 
 ### Prerequisites
 
-IDE: Microsoft Visual Studios 1.37.1 (or higher).
-Node.js (Version: 12.9.0 or higher)
+*IDE: Microsoft Visual Studios 1.37.1 (or higher).
+*Node.js (Version: 12.9.0 or higher)
 
 ## Commands
+<br>
+List of commands:
+<br>
+![alt text]()
+
 
 1. spotify-this-song:
-![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this.gif)
+![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this_song.gif)
 <br>
 <br>
 2. movie-this:
@@ -32,7 +37,7 @@ Node.js (Version: 12.9.0 or higher)
 <br>
 1.spotify-this-song: Searches the Spotify API Database and will pull out the title of the request track, artist, and album.
 <br>
-1. movie-this:
+1. movie-this: Utilizing the
 <br>
 3. concert-this:
 <br>
@@ -51,7 +56,7 @@ Google Chrome
 <br>
 Node.js v12.9.0
 <br>
-ShareX - GIFs
+ShareX - Screen Record User Functionality and converts to GIFs
 <br>
 
 ## npm Packages Used:
@@ -62,6 +67,8 @@ ShareX - GIFs
 *OMDb API - For movie-this feature: http://www.omdbapi.com/
 <br>
 *Moment API v2.24.0 - lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.: https://www.npmjs.com/package/moment
+<br>
+*Request npm - Request npm calls out the data from OMDb and BandsinTown database.
 <br>
 *dotenv API v8.1.0 - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.: https://www.npmjs.com/package/dotenv
 <br>

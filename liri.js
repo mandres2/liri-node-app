@@ -13,9 +13,13 @@ const spotify = new Spotify(keys.spotify);
 // Here we incorporate the "axios" npm package
 const axios = require("axios");
 
-//____________________________________________________________Bands in Town npm__________________________________________________________________//
+//____________________________________________________________BandsinTown npm__________________________________________________________________//
 const bandsintown = require('bandsintown')("codingbootcamp");
 // There seems to be an issue with pulling this....
+
+//____________________________________________________________Request npm__________________________________________________________________//
+// Calls to BandsInTown and OMDB database.
+var request = require('request');
 
 //___________________________________________________________Moment.js npm _______________________________________________________________________//
 // Date Formatting
