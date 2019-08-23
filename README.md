@@ -1,5 +1,4 @@
 # liri-node-app
-
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/nodejs.gif)
 
 # LIRI Bot
@@ -20,19 +19,16 @@ To get started: You will need to have an updated IDE (preferably VS Code), as we
 **List of commands**
 
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/list_commands.gif)
-<br>
+
 
 1. spotify-this-song:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/spotify_this_song.gif)
-<br>
-<br>
+
 2. movie-this:
-<br>
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/movie_this.gif)
-<br>
+
 3. concert-this:
-<br>
-<br>
+
 4.do-what-it-says:
 ![alt text](https://github.com/mandres2/liri-node-app/blob/master/images/GIFS/do_what_it_says.gif)
 
